@@ -45,7 +45,7 @@ class UserController extends Controller
             $confirmToken->user_id = $user->id;
             $confirmToken->save();
 
-            $ip = '13.37.215.2:80';
+            $ip = env('my_ip');
 
             $link = 'http://' . $ip . '/user/confirmEmail?token=' . $token;
 
