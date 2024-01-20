@@ -8,6 +8,8 @@
                     Register
                 </h2>
             </header>
+            <hr>
+            <br>
 
             <form action="{{route('user.store')}}" method="POST">
                 @csrf

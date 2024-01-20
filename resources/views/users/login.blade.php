@@ -8,6 +8,8 @@
                     Log In
                 </h2>
             </header>
+            <hr>
+            <br>
 
             <form action="{{route('user.login')}}" method="POST">
                 @csrf
