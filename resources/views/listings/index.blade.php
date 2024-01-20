@@ -12,7 +12,7 @@
             @endforeach
 
         @else
-            <p>No listings found</p>
+            <p>No postes found</p>
         @endunless
 
     </div>
