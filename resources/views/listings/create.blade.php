@@ -6,6 +6,8 @@
             Create a Post
         </h2>
     </header>
+    <hr>
+    <br>
 
     <form action="{{route('listing.store')}}" method="POST" enctype="multipart/form-data">
         @csrf

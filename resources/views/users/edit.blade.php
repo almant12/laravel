@@ -3,6 +3,8 @@
         <header class="text-center">
             <h2 class="text-2xl font-bold uppercase mb-1">Edit Profile</h2>
         </header>
+        <hr>
+        <br>
 
         <form method="POST" action="{{route('user.update',['user'=>$user->id])}}" enctype="multipart/form-data">
             @csrf
